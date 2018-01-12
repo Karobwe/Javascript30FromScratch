@@ -1,0 +1,52 @@
+:root {
+    font-size: 14px;
+    --border-normal : solid 2px #474747;
+    --border-active : solid 2px #FFFF44;
+}
+
+body {
+    background-image: url("../../assets/img/music-player-2951399_1920.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+body .container-fluid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: center;
+    height: 100vh;
+    padding-top: 250px;
+}
+
+@media (min-width: 1024px) {
+  body .container-fluid {
+    padding-bottom: 200px;
+  }
+}
+
+.key {
+    width: 80px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.pressed {
+    background-color: #ffc107;
+    color: #343a40;
+}
+
+.letter,
+.instrument {
+    display: block;
+}
+
+.letter {
+    font-size: 1.5em;
+}
+
+.instrument {
+    font-size: 1em;
+}
