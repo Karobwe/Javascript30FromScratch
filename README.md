@@ -4,7 +4,7 @@
 
 | Day | Title                                              | Status   |
 |:----|:---------------------------------------------------|:---------|
-| 1   | [JavaScript Drum Kit](#)                           | On going |
+| 1   | [JavaScript Drum Kit](./projects/drum-kit/)                           | On going |
 | 2   | [CSS + JS Clock](#)                                | Planed   |
 | 3   | [Playing with CSS Variables and JS](#)             | Planed   |
 | 4   | [Array Cardio Day 1](#)                            | Planed   |
